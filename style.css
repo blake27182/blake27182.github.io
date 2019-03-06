@@ -1,0 +1,84 @@
+#bt{
+  text-align: center;
+	padding-top: 15px;
+	padding-bottom: 50px;
+	width: 500px;
+	margin: auto;
+	opacity: 0;
+	transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+}
+
+#bt:hover{
+	opacity: 100;
+	transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+}
+
+button {
+  background-color: #FFFFFF;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+	font-family: 'Abril Fatface', cursive;
+}
+button:focus{
+  outline:none;
+}
+/*button:hover{
+  opacity: 100;
+	transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+}*/
+
+html { 
+  background: url(pics/woody.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#info{
+  position: absolute;
+  bottom: 10px;
+  right: 15px;
+  height: 20px;
+  width: 20px;
+}
+#info img{
+  opacity: .75;
+  width: 20px;
+}
+#info img:hover{
+  opacity: 1;
+}
+
+#infoPanel{
+  width: 350px;
+  background-color: #ffffff;
+  padding: 25px 35px;
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+  box-shadow: -5px 5px 17px -4px #000000;
+  display: none;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	padding-top: 0px;
+}
+
+h1{
+	font-size: 40px;
+	margin-bottom: 0;
+	margin-top: 0px;
+	padding-bottom: 0px;
+}
